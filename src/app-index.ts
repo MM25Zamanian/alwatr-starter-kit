@@ -8,8 +8,8 @@ import {classMap} from 'lit/directives/class-map.js';
 import {AppElement} from './app-debt/app-element';
 import {mainNavigation} from './config';
 
-import './elements/page-home';
-import './elements/page-about';
+import './pages/page-home';
+import './pages/page-about';
 
 import type {RoutesConfig} from '@alwatr/router';
 import type {ListenerInterface} from '@alwatr/signal';
